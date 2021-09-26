@@ -1,0 +1,16 @@
+body {
+    display: grid;
+    /* grid-template-columns: repeat(8, 1fr); */
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 30px;
+    margin: 100px;
+    background-color: #333;
+}
+
+.item {
+    /* object-fit: cover; */
+    /* width: 112px;
+    height: 112px; */
+    width: 224px;
+    height: 224px;
+}
